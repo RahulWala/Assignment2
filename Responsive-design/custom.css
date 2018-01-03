@@ -1,0 +1,36 @@
+
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu-item {
+  background-color:black;
+  padding:8px;
+  margin-top:7px;
+  color:white;
+  border-radius: 50px;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+  background-color: #24953D;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.right {
+  background-color:#17A086;
+  height: 11em;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
